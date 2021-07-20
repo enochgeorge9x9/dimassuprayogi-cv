@@ -1,7 +1,7 @@
 {
   "name": "personal_portfolio_2",
   "version": "0.1.0",
-  "homepage": "enochgeorge9x9.github.io",
+  "homepage": "https://enochgeorge9x9.github.io/dimassuprayogi-cv",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
