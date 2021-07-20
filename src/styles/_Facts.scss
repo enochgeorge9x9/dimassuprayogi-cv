@@ -1,0 +1,49 @@
+/*--------------------------------------------------------------
+# Facts
+--------------------------------------------------------------*/
+.facts {
+	padding-bottom: 30px;
+
+	.count-box {
+		padding: 30px;
+		width: 100%;
+
+		i {
+			display: block;
+			font-size: 44px;
+			color: #149ddd;
+			float: left;
+		}
+
+		span {
+			font-size: 48px;
+			display: block;
+			line-height: 40px;
+			font-weight: 700;
+			color: #050d18;
+			margin-left: 30px;
+		}
+
+		p {
+			padding: 5px 0 0 0;
+			margin: 0 0 0 60px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 14px;
+			color: #122f57;
+		}
+
+		strong {
+			font-weight: 600;
+			display: block;
+			color: #122f57;
+			margin-top: 20px;
+			font-size: 15px;
+			font-family: 'Poppins', sans-serif;
+			transition: ease-in-out 0.3s;
+
+			&:hover {
+				color: #1f5297;
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "personal_portfolio_2",
+  "version": "0.1.0",
+  "homepage": "enochgeorge9x9.github.io",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "boxicons": "^2.0.7",
+    "gh-pages": "^3.2.3",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-countup": "^4.4.0",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-icofont": "^1.0.19",
+    "react-owl-carousel": "^2.3.3",
+    "react-scripts": "4.0.3",
+    "react-typical": "^0.1.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
