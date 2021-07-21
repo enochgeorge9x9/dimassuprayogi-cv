@@ -1,5 +1,8 @@
 // Tutorial: https://youtu.be/K1HchLD6fHI?list=PLQWw-1GTSudu5luWn6kzk-8EZYE4Y0tce
-// Deployment:  https://www.youtube.com/watch?v=6Rto09ElUuY
+// Deployed in Netlify: github account
+// Form Submissions: FormSpark: yrxo58 account
+// Domain Name: Namecheap
+// Google ReCAPTCHA v2: https://www.google.com/recaptcha/admin/site/464470714: enochgeorge1999 account
 
 // Vendor Links
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +22,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 
-require('dotenv').config()
+require('dotenv').config();
 
 function App() {
 	return (
