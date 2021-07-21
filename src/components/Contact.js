@@ -5,9 +5,9 @@ import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
     // Account: yrox58@gmail.com : FormID
-	const formId = process.env.FORM_ID;
+	const formId = 'uXltXpou';
 	const formSparkUrl = `https://submit-form.com/${formId}`;
-	const recaptchaKey = process.env.RECAPTCHA_KEY;
+	const recaptchaKey = '6Le6Qq8bAAAAABhKxdxgzFt-pIYtAeuS7dLeVyll';
 	const recaptchaRef = useRef();
 
 	const initialState = {
