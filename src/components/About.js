@@ -3,7 +3,7 @@ import profileImg from '../img/profile-img.jpg';
 const About = () => {
 	const basicInfos = {
 		info1: {
-			Birthday: 'July 3, 1994',
+			Birthday: 'July 5, 1994',
 			Website: 'www.dimassuprayogi.me',
 			Phone: '+973 32396217',
 			Resident: 'Salmaniya, Kingdom of Bahrain',
