@@ -2,11 +2,12 @@ import { useState, useRef } from 'react';
 import axios from 'axios';
 import ReCAPTCHA from 'react-google-recaptcha';
 
+
 const Contact = () => {
-    // Account: yrox58@gmail.com
-	const formId = 'uXltXpou';
+    // Account: yrox58@gmail.com : FormID
+	const formId = process.env.FORM_ID;
 	const formSparkUrl = `https://submit-form.com/${formId}`;
-	const recaptchaKey = '6Lf4i6gbAAAAANI4DbdR7yqCeBN-AH-E44zjp9zu';
+	const recaptchaKey = process.env.RECAPTCHA_KEY;
 	const recaptchaRef = useRef();
 
 	const initialState = {

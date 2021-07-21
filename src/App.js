@@ -19,6 +19,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 
+require('dotenv').config()
+
 function App() {
 	return (
 		<div className='App'>
