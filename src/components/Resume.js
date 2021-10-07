@@ -16,9 +16,9 @@ const Resume = () => {
 								<em>Innovative and deadline-driven Human Resource Management with 3+ years of experience in recuriting talents and hiring the best suitable candidate for the job</em>
 							</p>
 							<ul>
-								<li>Road No 1121, Manama, Salmaniya 311</li>
-								<li>+973 32396217</li>
-								<li>dimas.suprayogi17@gmail.com</li>
+								{/* <li>Road No 1121, Manama, Salmaniya 311</li> */}
+								<li><b>Phone:</b> +973 32396217</li>
+								<li><b>Email:</b> dimas.suprayogi17@gmail.com</li>
 							</ul>
 						</div>
 						

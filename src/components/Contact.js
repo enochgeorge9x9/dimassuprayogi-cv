@@ -2,9 +2,8 @@ import { useState, useRef } from 'react';
 import axios from 'axios';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-
 const Contact = () => {
-    // Account: yrox58@gmail.com : FormID
+	// Account: yrox58@gmail.com : FormID
 	const formId = 'uXltXpou';
 	const formSparkUrl = `https://submit-form.com/${formId}`;
 	const recaptchaKey = '6Le6Qq8bAAAAABhKxdxgzFt-pIYtAeuS7dLeVyll';
@@ -61,7 +60,7 @@ const Contact = () => {
 	};
 
 	return (
-		<section id='contact' className='contact section-bg'>
+		<section id='contact' className='contact'>
 			<div className='container'>
 				<div className='section-title'>
 					<h2>Contact</h2>
@@ -72,13 +71,14 @@ const Contact = () => {
 				</div>
 
 				<div className='row' data-aos='fade-in'>
+                    {/* Info */}
 					<div className='col-lg-5 d-flex align-items-stretch'>
 						<div className='info'>
-							<div className='address'>
+							{/* <div className='address'>
 								<i className='icofont-google-map'></i>
 								<h4>Location: </h4>
 								<p>Road No 1121, Manama, Salmaniya 311, Kingdom of Bahrain</p>
-							</div>
+							</div> */}
 
 							<div className='email'>
 								<i className='icofont-envelope'></i>
@@ -93,10 +93,10 @@ const Contact = () => {
 							</div>
 
 							{/* Google Maps */}
-							<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14317.075248619556!2d50.570847!3d26.2204538!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d57dabd78d2fc43!2sJakarta%20Manpower%20Services!5e0!3m2!1sen!2sbh!4v1626781517649!5m2!1sen!2sbh' title='map' frameborder='0' style={{ border: '0', width: '100%', height: '290px' }} allowFullScreen></iframe>
+							{/* <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14317.075248619556!2d50.570847!3d26.2204538!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d57dabd78d2fc43!2sJakarta%20Manpower%20Services!5e0!3m2!1sen!2sbh!4v1626781517649!5m2!1sen!2sbh' title='map' frameborder='0' style={{ border: '0', width: '100%', height: '290px' }} allowFullScreen></iframe> */}
 						</div>
 					</div>
-
+                    
 					{/* Form */}
 					<div className='col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch '>
 						<form className='email-form needs-validation' onSubmit={submitForm} novalidate>
@@ -148,6 +148,8 @@ const Contact = () => {
 							</div>
 						</form>
 					</div>
+
+					
 				</div>
 			</div>
 		</section>
