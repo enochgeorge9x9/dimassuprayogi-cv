@@ -16,7 +16,7 @@ import Hero from './components/Hero.js';
 import About from './components/About.js';
 import Facts from './components/Facts.js';
 import Skills from './components/Skills.js';
-import Services from './components/Services';
+// import Services from './components/Services';
 // import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
